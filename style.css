@@ -5,3 +5,9 @@ h1 { text-align:center; color:white; font-size : 50px; font-family:Rockwell;
 }
 p {text-align:center; color:white; font-size : 20px; font-family:Rockwell;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
