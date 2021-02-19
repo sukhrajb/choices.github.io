@@ -11,6 +11,8 @@ p {text-align:center; color:white; font-size : 20px; font-family:Rockwell;
   margin-right: auto;
   width: 50%;
 }
+
+
 /* Flashlight Overlay */
 :root {
   cursor: none;
