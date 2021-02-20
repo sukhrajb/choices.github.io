@@ -8,4 +8,9 @@ function update(e){
   
   document.addEventListener('mousemove',update)
   document.addEventListener('touchmove',update)
-  
+  var element = document.querySelector(".door");
+element.addEventListener("click", toggleDoor);
+
+function toggleDoor() {
+  element.classList.toggle("doorOpen");
+}
