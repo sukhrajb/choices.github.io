@@ -31,6 +31,11 @@ p {text-align:center; color:white; font-size : 20px; font-family:Rockwell;
 }
 .p2 {text-align:center; color:white; font-size : 70px; font-family:Rockwell;
 }
+h2 { text-align:left; color:white; font-size : 30px; font-family:Rockwell; 
+}
+h3 {text-align:left; color:rgb(255, 255, 255); font-size : 20px; font-family:Rockwell ;}
+
+
 .doorOpen
 {
   /*prespectiv creates the door open effect*/
@@ -43,21 +48,22 @@ p {text-align:center; color:white; font-size : 20px; font-family:Rockwell;
   margin-right: auto;
   width: 50%;
 }
+
 /* unvisited link */
 a:link {
-  color: red;
+  color: rgb(255, 255, 255);
   font-size : 30px; font-family:Rockwell
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: rgb(0, 248, 124);
   font-size : 30px; font-family:Rockwell
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: rgb(255, 0, 0);
   font-size : 30px; font-family:Rockwell
 }
 
@@ -66,7 +72,6 @@ a:active {
   color: blue;
   font-size : 30px; font-family:Rockwell
 }
-
 
 
 .neon {
@@ -97,7 +102,7 @@ a:active {
 
 .door
 {
-  background-color: brown;
+  background-color: #E41B4B;
   /* position:absolute; */
   top:0px;
   left:0px;
@@ -116,4 +121,24 @@ a:active {
   height: 275px;
   width: 200px;
   background-color: #E41B4B;
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid rgb(255, 196, 0);
+	border-bottom: 25px solid transparent;
+  float:left;
+}
+.button {
+  background-color: #002efd;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
