@@ -1,6 +1,10 @@
+
 body {
-    background-color: rgb(5, 173, 159);
-  }
+  background-color: #00030f;
+background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+
+}
+
 h1 { text-align:center; color:white; font-size : 50px; font-family:Rockwell; 
 }
 p {text-align:center; color:white; font-size : 20px; font-family:Rockwell;
@@ -43,8 +47,19 @@ p {text-align:center; color:white; font-size : 20px; font-family:Rockwell;
   transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
 }
 
-
-
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(98, 0, 255),
+    0 0 80px rgb(98, 0, 255),
+    0 0 90px rgb(98, 0, 255),
+    0 0 100px rgb(98, 0, 255),
+    0 0 150px rgb(98, 0, 255);
+    text-align:center; color:white; font-size : 100px; font-family:Night Club 70s
+}
 
 
 /* Flashlight Overlay */
