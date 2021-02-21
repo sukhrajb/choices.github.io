@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="myscripts.js"></script>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="myscripts.js"></script>
+    </head>
 <body>
 </div>
 <div class="container">
@@ -11,7 +13,13 @@
 <h1>Welcome to The Hall of Decisions!</h1>\
 <p><a href="about.html">HELP ME</a><p>
 <a href="page1.html"> <img src="door1.gif" alt="page1.html" width="200" height="232" ></a>
+<div class="backDoor">
+    <div class="door page1door">  
+    </div>
+  </div>
+<!-- <a href="page1.html"> -->
+ <div onclick="window.open('page1.html', 'mywindow')" id="door" class="rectangle"></div>
+<!-- </a> -->
 
-<a href="page1.html"></a><div class="rectangle"></div></a>
 </body>
 </html>
