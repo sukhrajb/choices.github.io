@@ -18,6 +18,12 @@ function goToPage1(element) {
   }, 1000);
 }
 
+function goToPage2(element) {
+  element.classList.toggle("doorOpen");
+  setTimeout(function(){
+    window.open('page1.html', 'mywindow');
+  }, 1000);
+}
   
 document.addEventListener('mousemove',update)
 document.addEventListener('touchmove',update)
@@ -25,6 +31,8 @@ document.addEventListener('touchmove',update)
 window.addEventListener('load', function(){
   var element = document.querySelector(".door.page1door");
   element.addEventListener("click", goToPage1.bind(event, element));
+  var element = document.querySelector(".door.page2door");
+  element.addEventListener("click", goToPage2.bind(event, element));
 
 });
 
