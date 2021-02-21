@@ -3,3 +3,37 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
   
   }
+  h1 { text-align:center; color:white; font-size : 50px; font-family:Rockwell; 
+  }
+  p {text-align:center; color:white; font-size : 20px; font-family:Rockwell;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  /* unvisited link */
+a:link {
+    color: red;
+    font-size : 30px; font-family:Rockwell
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+    font-size : 30px; font-family:Rockwell
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    font-size : 30px; font-family:Rockwell
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    font-size : 30px; font-family:Rockwell
+  }
+  
