@@ -15,7 +15,25 @@ p {text-align:center; color:white; font-size : 20px; font-family:Rockwell;
   margin-right: auto;
   width: 50%;
 }
+/* unvisited link */
+a:link {
+  color: red;
+}
 
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
 
 .backDoor
 {
