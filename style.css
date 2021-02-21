@@ -41,35 +41,7 @@ a:active {
   font-size : 30px; font-family:Rockwell
 }
 
-.backDoor
-{
-  background-color: #333;
-  width:200px;
-  height:300px;
-  
-  margin: 0 auto;
-  margin-top:50px;
-}
 
-.door
-{
-  background-color: rgb(255, 0, 106);
-
-  top:0px;
-  left:0px;
-  width:200px;
-  height:300px;
- 
-  transform-origin: left;
-  /*Speed of the Door animation*/
-  transition: all 0.5s ease-in-out;
-}
-
-.doorOpen
-{
-  /*prespectiv creates the door open effect*/
-  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
-}
 
 .neon {
   color: #fff;
@@ -86,6 +58,11 @@ a:active {
 }
 
 
+.rectangle {
+  height: 275px;
+  width: 200px;
+  background-color: #E41B4B;
+}
 /* Flashlight Overlay */
 :root {
   cursor: none;
