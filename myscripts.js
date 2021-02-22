@@ -21,7 +21,7 @@ function goToPage1(element) {
 function goToPage2(element) {
   element.classList.toggle("doorOpen");
   setTimeout(function(){
-    window.open('page1.html', 'mywindow');
+    window.open('page2.html', 'mywindow');
   }, 1000);
 }
   
