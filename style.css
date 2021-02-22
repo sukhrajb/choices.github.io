@@ -46,7 +46,7 @@ h3 {text-align:left; color:rgb(255, 255, 255); font-size : 20px; font-family:Roc
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+ 
 }
 
 /* unvisited link */
@@ -63,7 +63,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: rgb(255, 0, 0);
+  color: rgb(10, 87, 20);
   font-size : 30px; font-family:Rockwell
 }
 
@@ -131,7 +131,19 @@ a:active {
   float:left;
 }
 .button {
-  background-color: #002efd;
+  background-color: #113CCF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {
+  background-color: #E50914;
   border: none;
   color: white;
   padding: 15px 32px;
