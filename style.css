@@ -35,7 +35,10 @@ h2 { text-align:left; color:white; font-size : 30px; font-family:Rockwell;
 }
 h3 {text-align:left; color:rgb(255, 255, 255); font-size : 20px; font-family:Rockwell ;}
 
-
+.three { text-align:left; color:white; font-size : 10px; font-family:Rockwell; 
+}
+.four { text-align:left; color:white; font-size : 20px; font-family:Rockwell; 
+}
 .doorOpen
 {
   /*prespectiv creates the door open effect*/
