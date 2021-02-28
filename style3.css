@@ -25,7 +25,13 @@ body {
     /*prespectiv creates the door open effect*/
     transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
   }
-  
+  .inline-block-center {
+    text-align: center;
+  }
+  .inline-block-center div {
+    display: inline-block;
+    text-align: left;
+  }
   .center {
     margin: 0;
     position: absolute;
