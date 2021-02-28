@@ -35,7 +35,7 @@ h2 { text-align:left; color:white; font-size : 30px; font-family:Rockwell;
 }
 h3 {text-align:left; color:rgb(255, 255, 255); font-size : 20px; font-family:Rockwell ;}
 
-.three { text-align:left; color:white; font-size : 10px; font-family:Rockwell; 
+.three { text-align:center; color:white; font-size : 10px; font-family:Rockwell; 
 }
 .four { text-align:left; color:white; font-size : 20px; font-family:Rockwell; 
 }
@@ -46,9 +46,12 @@ h3 {text-align:left; color:rgb(255, 255, 255); font-size : 20px; font-family:Roc
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
  
 }
 
@@ -157,4 +160,27 @@ a:active {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.centerdiv {
+  margin:0 auto; width: 80%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > div {
+
+  top:0px;
+  left:0px;
+  width:1px;
+  height:300px;
+  z-index: inherit;
+  transform-origin: left; 
+  text-align: center;
+  line-height: 5px;
+  font-size: 30px;
+
 }
