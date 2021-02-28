@@ -36,6 +36,18 @@ function goToPage4(element) {
     window.open('page4.html', 'mywindow');
   }, 1000);
 }  
+function goToPage5(element) {
+  element.classList.toggle("doorOpen");
+  setTimeout(function(){
+    window.open('page5.html', 'mywindow');
+  }, 1000);
+}  
+function goToPage6(element) {
+  element.classList.toggle("doorOpen");
+  setTimeout(function(){
+    window.open('page6.html', 'mywindow');
+  }, 1000);
+}  
 document.addEventListener('mousemove',update)
 document.addEventListener('touchmove',update)
 
@@ -46,11 +58,15 @@ window.addEventListener('load', function(){
   var door2 = document.querySelector(".door.page2door");
   var door3 = document.querySelector(".door.page3door");
   var door4 = document.querySelector(".door.page4door");
+  var door5 = document.querySelector(".door.page5door");
+  var door6 = document.querySelector(".door.page6door");
   var doors = [
     door1,
     door2,
     door3,
     door4,
+    door5,
+    door6,
   ];
 
   var pageMethods = [
@@ -58,6 +74,8 @@ window.addEventListener('load', function(){
     goToPage2,
     goToPage3,
     goToPage4,
+    goToPage5,
+    goToPage6,
   ];
 //* Door stuff^*//
   var shuffledArray = shuffleArray(pageMethods);
