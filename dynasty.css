@@ -1,0 +1,187 @@
+
+body {
+    background-color: #e50914 !important;
+    background-image: url("edit.gif");
+  
+  }
+  
+  
+  h1 { text-align:center; color:rgb(255, 255, 255); font-size : 50px; font-family:Rockwell; 
+  }
+  p {text-align:center; color:rgb(0, 0, 0); font-size : 16px; font-family:Rockwell;
+  }
+  .p2 {text-align:center; color:white; font-size : 70px; font-family:Rockwell;
+  }
+  h2 { text-align:left; color:white; font-size : 30px; font-family:Rockwell; 
+  }
+  h3 {text-align:left; color:rgb(255, 255, 255); font-size : 20px; font-family:Rockwell ;}
+  
+  .three { text-align:center; color:rgb(255, 255, 255); font-size : 16px; font-family:Rockwell; 
+  }
+  .four { text-align:left; color:white; font-size : 1px; font-family:Rockwell; 
+  }
+  .doorOpen
+  {
+    /*prespectiv creates the door open effect*/
+    transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+  }
+  .inline-block-center {
+    text-align: center;
+  }
+  .inline-block-center div {
+    display: inline-block;
+    text-align: left;
+  }
+  .center {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+   
+  }
+  
+  /* unvisited link */
+  a:link {
+    color: rgb(255, 255, 255);
+    font-size : 30px; font-family:Rockwell
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0, 248, 124);
+    font-size : 30px; font-family:Rockwell
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(10, 87, 20);
+    font-size : 30px; font-family:Rockwell
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    font-size : 30px; font-family:Rockwell
+  }
+  
+  
+  .neon {
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px rgb(98, 0, 255),
+      0 0 80px rgb(98, 0, 255),
+      0 0 90px rgb(98, 0, 255),
+      0 0 100px rgb(98, 0, 255),
+      0 0 150px rgb(98, 0, 255);
+      text-align:center; color:white; font-size : 100px; font-family:Night Club 70s
+  }
+  
+  
+  .backDoor
+  {
+    background-color: #333;
+    /*position:relative;*/
+    width:200px;
+    height:300px;
+    
+    margin: 0 auto;
+    margin-top:50px;
+  
+  }
+  
+  .door
+  {
+    background-color: #E41B4B;
+    /* position:absolute; */
+  
+    top:0px;
+    left:0px;
+    width:200px;
+    height:300px;
+    z-index: inherit;
+    transform-origin: left; 
+    /*Speed of the Door animation*/
+    transition: all 0.5s ease-in-out;
+  }
+  
+  
+  
+  .rectangle {
+    height: 275px;
+    width: 200px;
+    background-color: #E41B4B;
+  }
+  .triangle-right {
+      width: 0;
+      height: 0;
+      border-top: 25px solid transparent;
+      border-left: 50px solid rgb(255, 196, 0);
+      border-bottom: 25px solid transparent;
+    float:left;
+  }
+  .button {
+    background-color: #113CCF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button2 {
+    background-color: #E50914;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button3 {
+    background-color: #0D133D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+ 
+    cursor: pointer;
+  }
+  .centerdiv {
+    margin:0 auto; width: 80%;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-container > div {
+  
+    top:0px;
+    left:0px;
+    width:1px;
+    height:300px;
+    z-index: inherit;
+    transform-origin: left; 
+    text-align: center;
+    line-height: 5px;
+    font-size: 30px;
+  
+  }
+  .wrapper {
+    text-align: center;
+}
