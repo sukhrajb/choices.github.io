@@ -1,11 +1,11 @@
 body {
-    background-color: #00030f;
-  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
-  
+  background-color: #00eeff34;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+
   }
-  h1 { text-align:center; color:white; font-size : 50px; font-family:Rockwell; 
+  h1 { text-align:center; color:rgb(0, 0, 0); font-size : 50px; font-family:Rockwell; 
   }
-  p {text-align:center; color:white; font-size : 20px; font-family:Rockwell;
+  p {text-align:center; color:rgb(0, 0, 0); font-size : 20px; font-family:Rockwell;
   }
   .center {
     display: block;
