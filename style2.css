@@ -5,7 +5,14 @@ body {
   }
   h1 { text-align:center; color:rgb(0, 0, 0); font-size : 50px; font-family:Rockwell; 
   }
+h2 { text-align:center; color:rgb(0, 0, 0); font-size : 24px; font-family:Rockwell; 
+}
   p {text-align:center; color:rgb(0, 0, 0); font-size : 20px; font-family:Rockwell;
+  }
+
+  .three { text-align:center; color:rgb(0, 0, 0); font-size : 16px; font-family:Rockwell; 
+  }
+  .four { text-align:center; color:rgb(0, 0, 0); font-size : 20px; font-family:Rockwell; 
   }
   .center {
     display: block;
