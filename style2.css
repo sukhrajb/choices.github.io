@@ -43,6 +43,9 @@ a:link {
     color: blue;
     font-size : 30px; font-family:Rockwell
   }
+  .wrapper {
+    text-align: center;
+}
   .button2 {
     background-color: #00d1c7;
     border: none;
